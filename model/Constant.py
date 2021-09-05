@@ -1,0 +1,39 @@
+class Constants:
+    def __init__(self):
+        self.BOS_WORD = '<s>'
+        self.EOS_WORD = '</s>'
+        self.PAD_WORD = '<blank>'
+        self.UNK_WORD = '<unk>'
+        self.eq1_x_index_WORD = 'eq_one_x_index'
+        self.eq2_x_index_WORD = 'eq_two_x_index'
+        self.eq1_y_index_WORD = 'eq_one_y_index'
+        self.eq2_y_index_WORD = 'eq_two_y_index'
+        self.eq1_right_num1_WORD = 'eq_one_right_num_one'
+        self.eq2_right_num1_WORD = 'eq_two_right_num_one'
+        self.eq1_right_num2_WORD = 'eq_one_right_num_two'
+        self.eq2_right_num2_WORD = 'eq_two_right_num_two'
+        self.x_entity_WORD = 'x_entity'
+        self.y_entity_WORD = 'y_entity'
+        self.head_info_unit_WORD = 'head_info_unit'
+        self.jiao_info_unit_WORD = 'jiao_info_unit'
+        self.jiao_info_entity_WORD = 'jiao_info_entity'
+        self.head_info_entity_WORD = 'head_info_entity'
+        
+        self.PAD = 0
+        self.UNK = 1
+        self.BOS = 2
+        self.EOS = 3
+        self.eq1_x_index = 4
+        self.eq2_x_index = 5
+        self.eq1_y_index = 6
+        self.eq2_y_index = 7
+        self.eq1_right_num1 = 8
+        self.eq2_right_num1 = 9
+        self.eq1_right_num2 = 10
+        self.eq2_right_num2 = 11
+        self.x_entity = 12
+        self.y_entity = 13
+        self.head_info_unit = 14
+        self.jiao_info_unit = 15
+        self.jiao_info_entity =16
+        self.head_info_entity =17
