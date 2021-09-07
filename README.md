@@ -14,7 +14,7 @@ Graph and Equations
 
 ```shell
     git clone https://github.com/tal-ai/MaKE_EMNLP2021.git
-    cd MaKE
+    cd MaKE_EMNLP2021
     pip install -r requirements.txt
 ```
 
@@ -22,7 +22,7 @@ Graph and Equations
 
 ## Preprocess
 - Please refer to the code: preprocess_data.py
-- The original data: ./data
+- The original data: ./data  (you can read './data/Introduction_data.txt' to understand the data)
 - Our preprocessing results: ./processed_data
 
 <br>

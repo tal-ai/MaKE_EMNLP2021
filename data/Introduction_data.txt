@@ -1,0 +1,16 @@
+# Introduction to data fields
+
+ref: Reference text
+scene: The scene of the text
+头信息: The entities, quantities and units expressed in the first equation
+脚信息: The entities, quantities and units represented in the second equation
+变量: The variable corresponding to the entity
+关系1: Equation 1
+关系2: Equation 2
+关系1_trans: Standardized equation 1
+关系2_trans: Standardized equation 2
+mr: Write the equation in terms of slots
+seq2seq_mr: Enter a slot in seq2seq mode
+edges: Graph of the edge
+nodes: Graph of the node
+lexs: Parse special characters into concrete numbers
