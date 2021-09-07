@@ -217,7 +217,7 @@ def sample_generation(model, train_loader, idx2word, device):
 def main():
     '''Main function'''
     parser = argparse.ArgumentParser()
-    parser.add_argument('-data',required=True)
+    parser.add_argument('-data',default='./processed_data/dual_graph_rev_res.pt')
     parser.add_argument('-epoch', type=int, default=200)
     parser.add_argument('-batch_size',type=int, default=16)
     

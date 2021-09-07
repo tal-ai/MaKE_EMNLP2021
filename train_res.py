@@ -9,7 +9,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 import torch.utils.data
 
-from dataset_dual_res import MyDataset, collate_fn
+from dataset_dual import MyDataset, collate_fn
 from model.Constant import Constants
 from model.dual_graph_vae_2 import Graph2seq, ScheduledOptim
 from utils.cyclical_annealing import frange_cycle_linear
